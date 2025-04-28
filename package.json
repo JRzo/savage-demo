@@ -1,7 +1,7 @@
 {
   "name": "crud-express-mongo",
   "version": "1.0.0",
-  "description": "",
+  "description": "![21 Savage](public/21savage.jpg)",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
@@ -13,6 +13,7 @@
     "assert": "^1.4.1",
     "body-parser": "^1.14.2",
     "bson": ">=1.0.5",
+    "crud-express-mongo": "file:",
     "ejs": "^3.1.8",
     "express": "^4.13.3",
     "mongodb": "^3.3.4"
@@ -20,5 +21,13 @@
   "devDependencies": {
     "minimist": ">=1.2.2",
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonnoel/savage-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leonnoel/savage-demo/issues"
+  },
+  "homepage": "https://github.com/leonnoel/savage-demo#readme"
 }
